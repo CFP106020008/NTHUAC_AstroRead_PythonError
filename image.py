@@ -9,10 +9,9 @@ image = np.ones((L,L))*100
 noise = (np.random.random((L,L))-np.ones((L,L))*0.5)*2*noise_strength
 image += noise
 
-print("mean:", np.mean(image))
-print("std:", np.std(image))
+print("mean:", #TODO)
+print("std:", #TODO)
 
 plt.imshow(image,cmap = 'gray')
 plt.colorbar()
 plt.show()
-

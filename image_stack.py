@@ -17,16 +17,13 @@ print("std:", np.std(image1))
 #=============================#
 
 #Image 2
-image2 = np.ones((L,L))*100
-noise = (np.random.random((L,L))-np.ones((L,L))*0.5)*2*noise_strength
-image2 += noise
-print("mean:", np.mean(image2))
-print("std:", np.std(image2))
+image2 = 
+#TODO
 
 #=============================#
 
 #Combine Image
-image_combine = (image1 + image2)/2
+image_combine = 
 print("mean:", np.mean(image_combine))
 print("std:", np.std(image_combine))
 
@@ -41,6 +38,5 @@ plt.imshow(image2,cmap = 'gray')
 fig = plt.subplot(1,3,3)
 plt.imshow(image_combine,cmap = 'gray')
 
-#plt.colorbar()
 plt.show()
 

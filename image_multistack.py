@@ -25,13 +25,12 @@ minv = 90
 #=============================#
 plt.figure()
 fig = plt.subplot(1,3,1)
-plt.imshow(stack(1),cmap = 'gray', vmax = maxv, vmin = minv)
+plt.imshow(stack(#TODO),cmap = 'gray', vmax = maxv, vmin = minv)
 
 fig = plt.subplot(1,3,2)
-plt.imshow(stack(4),cmap = 'gray', vmax = maxv, vmin = minv)
+plt.imshow(stack(#TODO),cmap = 'gray', vmax = maxv, vmin = minv)
 
 fig = plt.subplot(1,3,3)
-plt.imshow(stack(16),cmap = 'gray', vmax = maxv, vmin = minv)
+plt.imshow(stack(#TODO),cmap = 'gray', vmax = maxv, vmin = minv)
 
 plt.show()
-
